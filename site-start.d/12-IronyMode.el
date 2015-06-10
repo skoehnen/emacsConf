@@ -12,3 +12,8 @@
     'irony-completion-at-point-async))
 (add-hook 'irony-mode-hook 'my-irony-mode-hook)
 (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
+
+;; Start auto-complete
+(add-hook 'c++-mode-hook 'auto-complete-mode)
+(add-hook 'c-mode-hook 'auto-complete-mode)
+(add-hook 'objc-mode-hook 'auto-complete-mode)

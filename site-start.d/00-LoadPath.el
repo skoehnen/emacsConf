@@ -12,6 +12,15 @@
 ;; json
 (require 'json)
 
+;; popup
+(add-to-list 'load-path "~/.emacs.d/site-lisp/popup-el")
+(require 'popup)
+
+;; auto-complete
+(add-to-list 'load-path "~/.emacs.d/site-lisp/auto-complete")
+(require 'auto-complete)
+
 ;; irony
 (add-to-list 'load-path "~/.emacs.d/site-lisp/irony-mode")
 (require 'irony)
+
