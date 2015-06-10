@@ -1,3 +1,5 @@
-;; Don't start with splash-screen
-(setq inhibit-startup-message t)
+;; Load my files
+(autoload 'my-site-start "~/.emacs.d/my-site-start" nil t)
+(my-site-start "~/.emacs.d/site-start.d/")
+
 
