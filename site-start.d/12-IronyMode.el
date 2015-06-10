@@ -17,3 +17,8 @@
 (add-hook 'c++-mode-hook 'auto-complete-mode)
 (add-hook 'c-mode-hook 'auto-complete-mode)
 (add-hook 'objc-mode-hook 'auto-complete-mode)
+
+;; Activate linum-mode
+(add-hook 'c++-mode-hook 'linum-mode)
+(add-hook 'c-mode-hook 'linum-mode)
+(add-hook 'objc-mode-hook 'linum-mode)
