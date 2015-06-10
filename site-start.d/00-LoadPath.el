@@ -11,3 +11,7 @@
 
 ;; json
 (require 'json)
+
+;; irony
+(add-to-list 'load-path "~/.emacs.d/site-lisp/irony-mode")
+(require 'irony)
